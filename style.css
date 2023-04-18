@@ -1,0 +1,67 @@
+/* ui: https://uidesigndaily.com/posts/sketch-questionnaire-choice-submit-day-924 */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(90deg, #ebf4f5 0%, #b5c6e0 100%);
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.quiz-container {
+    background: #fff;
+    width: 50vw;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.quiz-header {
+    padding: 4rem;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+ul li {
+    padding: 0.5rem;
+}
+
+label {
+    cursor: pointer;
+}
+
+input[type=radio]#a ,input[type=radio]#b
+,input[type=radio]#c ,input[type=radio]#d {
+    accent-color: #6b33a4;
+}
+
+button {
+    width: 100%;
+    border: none;
+    display: block;
+    color: #fff;
+    background: #6b33a4;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #452269;
+}
